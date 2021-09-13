@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+/*THIS IS TO DETERMINE THE MAIN COLOR AND LOOK OF THE WEBPAGE AND THE BACKGROUND*/
+.hero {
+  background: rgb(237, 168, 10);
+  background: linear-gradient(
+    180deg,
+    rgba(237, 168, 10, 1) 0%,
+    rgba(255, 207, 52, 1) 100%
+  );
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+/*THIS IS THE WHITE BOX SEEN ON THE RIGHT SIDE OF THE PAGE*/
+.white-box {
+  position: absolute;
+  width: 700px;
+  height: 750px;
+  margin-top: 0px;
+  margin-left: 50%;
+  margin-right: auto;
+  padding: 20px 3%;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/*THE FOLLOWING 3 HEADERS ARE USED TO CHANGE THE TEXT*/
+.white-box h1 {
+  color: #82d6e1;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  margin-left: 30%;
+  text-align: center;
+  font-size: xx-large;
+}
+.white-box h2 {
+  color: #82d6e1;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  font-size: xx-large;
+}
+.white-box h3 {
+  color: #82d6e1;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  font-size: xx-large;
+}
+/*THIS IS USED TO DETERMINE THE LOCATION OF THE CANVAS ON THE WHITE BOX*/
+.white-box canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+}
+/*THIS IS USED TO STYLE THE TEXT ON THE LEFT SIDE OF THE SCREEN*/
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 1%;
+}
+nav h1 {
+  font-size: 30px;
+  font-weight: 1000;
+  color: #fff;
+}
+nav h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+nav h2 {
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+.text-container {
+  max-width: 600px;
+  margin-top: 7%;
+  margin-right: 50%;
+  padding-left: 50px;
+}
+.text-container h1 {
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.text-container p {
+  font-size: 30px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+/*THIS IS USED TO POSITION THE IMAGE UNDER THE CANVAS GRAPH*/
+.palm {
+  position: absolute;
+  top: 270px;
+  right: 61%;
+  width: 200px;
+  z-index: 2;
+}
+.trees {
+  width: 100%;
+  width: 1300px;
+}

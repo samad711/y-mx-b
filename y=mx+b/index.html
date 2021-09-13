@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!---THIS IS THE CONNECTION FOR THE STYLE SHEET--->
+    <link rel="stylesheet" href="style.css">
+    <title>y=mx+b</title>
+</head>
+<body>
+<!---THIS IS FOR THE HEADERS AT THE TOP OF THE SCREEN--->
+<div class="hero">
+    <nav>
+        <h1><a href="">phenomena</a></h1>
+        <h2>Algebra</h2>
+        <ul>
+            <li><a href="">Home</a></li>
+        </ul>
+    </nav>
+<!---THIS IS FOR THE SVG I CREATED USING ADOBE ILLUSTRATOR--->
+    <div class="palm">
+        <img src="images/trees_fullf.svg" class="trees">
+    </div>
+<!---THIS IS FOR THE WHITE BOX THAT IS SEEN AT HALF WAY THROUGH THE WEBPAGE--->
+    <div class="white-box">
+<!---THIS IS FOR THE BUTTONS AND THE EQUATION ON TOP OF THE GRAPH--->
+    <h1>y = (<span id="count">1</span><button onclick="plusOne(count)">Rise</button></h1>
+    <h2> / <span id="count2">1</span><button onclick="plusRun(count2)">Run</button>) x + </h2>
+    <h3><span id="count3">0</span><button onclick="plusB(count3)">b</button></h3>
+<!---THIS IS USED TO PUT ALL THE BUTTONS ON THE SAME LINE--->
+    <style>
+        h1, h2, h3 {display:inline;}
+    </style>
+<!---THIS IS FOR THE CANVAS WHICH WAS USED TO CREATE THE GRID AND THE GRAPH--->
+    <canvas id="c" width="600" height="600"></canvas>
+    </div>
+<!---THIS IS FOR THE TEXT SEEN ON THE LEFT SIDE OF THE SCREEN--->
+    <div class="text-container">
+        <h1>y = mx + b</h1>
+        <p>The formula is the slope-intercept form of a straight line. In the equation y = mx + b, 'b' is the point where the line will intersect the y-axis.
+            <br>
+            <br>The 'm' is the slope of the line. The slope (m) of the line is determined by rise/run(Fig 1). The slope will remain constant throughout the line.
+            <br>
+            <br>If the x or run value is 0 then the slope is undefined because it is going straight up.
+            <br>If the y or rise valie is 0 then the slope is equivalent to the 'b' value. </p>
+    </div>
+</div>
+<!---THIS IS THE CONNECTION FOR THE SCRIPT CODE--->
+<script src="line.js"></script>
+</body>
+</html>
